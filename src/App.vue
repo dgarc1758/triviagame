@@ -1,14 +1,9 @@
 <script setup>
-
+import MainLayout from "@/components/MainLayout.vue";
 </script>
 
 <template>
-  <main>
-    <div class="card">
-      <RouterView />
-    </div>
-  </main>
-   <p class="score">Score: 100</p>
+  <MainLayout/>
 </template>
 
 <style lang="postcss" scoped>

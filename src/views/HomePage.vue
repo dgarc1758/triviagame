@@ -19,9 +19,7 @@ onMounted(async () => {
     Triviantastic
   </BaseTitle>
   <div v-if="categories.length > 0" class="categories">
-    <RouterLink v-for="category in categories" 
-    :key="category.id"
-    :to="`/question/category/${category.id}`"
+    <RouterLink v-for="category in categories" :key="category.id" :to="`/question/category/${category.id}`"
     class="category">
     {{ category.name }}
     </RouterLink>

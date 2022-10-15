@@ -18,6 +18,7 @@ const question = ref(null)
 const answers = ref([])
 const showNotification = ref(false)
 const isCorrect = ref(false)
+const categoryId = route.params.id;
 const { changeScore } = useScore()
 const handleAnswer = (points) => {
   isCorrect.value = points > 0

@@ -1,5 +1,5 @@
 /* eslint-env node */
-require('@rushstack/eslint-patch/modern-module-resolution') Calculating..
+require('@rushstack/eslint-patch/modern-module-resolution') Calculating...
 
 module.exports = {
   root: true,
